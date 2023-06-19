@@ -1,24 +1,32 @@
 :root {
+  --body-bgc: bisque;
+  --content-bgc: #fff;
   --nav-bgc: beige;
   --main-bcg: #fff;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: bisque;
+  background-color: var(--body-bgc);
 }
 .content {
-  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  background-color: var(--content-bgc);
 }
 
 nav {
   width: 100%;
-  height: 10vh;
+  height: 10%;
   background-color: var(--nav-bgc);
   display: flex;
   justify-content: space-between;
-  gap: 20%;
+  gap: 50px;
 }
 
 .logo-container {
@@ -39,13 +47,14 @@ nav {
   border: none;
   border-radius: 10%;
   padding: 5%;
+  text-align: center;
   flex: 1;
 }
 
 .main-container {
   background-color: var(--main-bcg);
   width: 100%;
-  height: 90vh;
+  height: 90%;
   padding: 5%;
 }
 
