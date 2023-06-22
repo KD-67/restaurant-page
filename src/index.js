@@ -1,6 +1,6 @@
 import "./main.css";
-import { firstLoad } from "./app/first-load.js";
+import { loadHomePage } from "./app/home-page.js";
+import { loadNavBtns } from "./app/nav-btns";
 
-firstLoad();
-
-console.log("Hello you beautiful world!");
+loadHomePage();
+loadNavBtns();
