@@ -1,6 +1,5 @@
 import "./main.css";
-import { loadHomePage } from "./app/home-page.js";
-import { loadNavBtns } from "./app/nav-btns";
+import { initialLoad } from "./app/page-load";
 
-loadHomePage();
-loadNavBtns();
+// Load Page
+initialLoad();
