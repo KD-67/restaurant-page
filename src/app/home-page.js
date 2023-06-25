@@ -1,26 +1,9 @@
 const createHomePage = () => {
-  console.log("TESTING FUNCTION!!!");
-
   // Body & div.content
-  const body = document.body;
   const content = document.querySelector(".content");
   const pageContent = document.createElement("div");
   pageContent.classList.add("page-content");
   content.appendChild(pageContent);
-
-  // Header
-  const headerBar = document.createElement("div");
-  pageContent.appendChild(headerBar);
-
-  // Logo (within Header)
-  const logoContainer = document.createElement("div");
-  logoContainer.classList.add("logo-container");
-  headerBar.appendChild(logoContainer);
-
-  // Buttons Container (within Header)
-  const btnsContainer = document.createElement("div");
-  btnsContainer.classList.add("btns-container");
-  headerBar.appendChild(btnsContainer);
 
   // Main Container
   const mainContainer = document.createElement("div");

@@ -3,6 +3,8 @@
   --content-bgc: #fff;
   --nav-bgc: beige;
   --main-bcg: #fff;
+  --btn-bgc: rgb(94, 94, 197);
+  --btn-hover-bgc: rgb(55, 55, 185);
 }
 
 * {
@@ -20,7 +22,7 @@ body {
   background-color: var(--content-bgc);
 }
 
-nav {
+.header-bar {
   width: 100%;
   height: 10%;
   background-color: var(--nav-bgc);
@@ -30,8 +32,11 @@ nav {
 }
 
 .logo-container {
-  border: 1px solid black;
   flex: 1;
+}
+
+.logo-img {
+  height: 150px;
 }
 
 .btns-container {
@@ -42,13 +47,18 @@ nav {
 }
 
 .nav-btn {
-  background-color: blue;
+  background-color: var(--btn-bgc);
   color: white;
   border: none;
   border-radius: 10%;
   padding: 5%;
   text-align: center;
   flex: 1;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  background-color: var(--btn-hover-bgc);
 }
 
 .main-container {
