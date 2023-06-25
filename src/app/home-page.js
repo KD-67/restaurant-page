@@ -1,4 +1,4 @@
-const createHomePage = () => {
+const loadHomePage = () => {
   // Body & div.content
   const content = document.querySelector(".content");
   const pageContent = document.createElement("div");
@@ -24,4 +24,4 @@ const createHomePage = () => {
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur possimus quam dolor, animi deserunt quod dicta similique rerum assumenda recusandae ea doloribus debitis commodi fugiat nulla dolores nobis praesentium fugit vitae! Quas fugiat, eum facere nulla fugit at a sequi officiis rerum, esse dolor accusamus consequatur. Assumenda distinctio perspiciatis ex, magni placeat sunt. Asperiores vitae voluptatum earum fugiat sapiente voluptatem a obcaecati expedita cum, beatae error alias sit ipsum assumenda eaque, ullam dolorum aliquam. Vero repellendus fugit reprehenderit dolorum asperiores fugiat provident neque pariatur dolore, quidem necessitatibus accusantium labore sunt adipisci voluptatem molestiae eveniet animi, nemo laborum, perspiciatis aliquam sequi.";
 };
 
-export { createHomePage };
+export { loadHomePage };
